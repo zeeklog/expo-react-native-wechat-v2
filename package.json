@@ -1,0 +1,41 @@
+{
+  "name": "expo-react-native-wechat-v2",
+  "title": "Expo React Native Wechat SDK",
+  "version": "2.0.0",
+  "description": "Expo React Native(iOS/Android) functionalities include WeChat Login, Share, Favorite and Payment.",
+  "main": "src/index",
+  "files": [
+    "README.md",
+    "src",
+    "expo-react-native-wechat-v2.podspec",
+    "ios",
+    "android",
+    "image"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeklog/expo-react-native-wechat-v2.git",
+    "baseUrl": "https://github.com/zeeklog/expo-react-native-wechat-v2"
+  },
+  "keywords": [
+    "wechat",
+    "react-native",
+    "react",
+    "expo",
+    "ios",
+    "android"
+  ],
+  "author": "Zeeklog <001@zeeklog.com>",
+  "license": "MIT",
+  "dependencies": {
+    "events": "^3.3.0"
+  },
+  "types": "./src/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/zeeklog/expo-react-native-wechat-v2/issues"
+  },
+  "homepage": "https://github.com/zeeklog/expo-react-native-wechat-v2#readme"
+}
