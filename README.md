@@ -5,14 +5,11 @@
 [![platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-blue.svg)](https://reactnative.dev/)
 [![expo](https://img.shields.io/badge/Expo-Compatible-green.svg)](https://expo.dev/)
 
-> 专为 Expo React Native 项目设计的微信 SDK 封装库，提供完整的微信功能集成
+> 专为 Expo React Native 项目设计的微信 SDK 封装库，集成分享、支付、登陆、跳转、发票等接口
 
-本库为 expo react native 项目提供 Wechat SDK 支持, 集成了微信SDK:
-- **Android SDK**: 6.8.23 +
-- **iOS SDK**: 2.0.2 +
+> Fix some bug for expo-react-native-wechat repo
 
 ## 📋 目录
-
 - [✨ 特性](#-特性)
 - [📦 安装](#-安装)
 - [🚀 快速开始](#-快速开始)
@@ -27,16 +24,17 @@
 
 ## ✨ 特性
 
-| 功能 | 描述 | 支持平台 |
-|------|------|----------|
-| 🔐 **微信登录授权** | 支持 OAuth2 授权登录 | iOS / Android |
-| 📤 **内容分享** | 支持文本、图片、音乐、视频、网页、小程序分享 | iOS / Android |
-| 💰 **微信支付** | 完整的支付流程集成 | iOS / Android |
-| 🚀 **小程序跳转** | 支持跳转到微信小程序 | iOS / Android |
-| 📝 **TypeScript** | 完整的类型定义支持 | 全平台 |
-| 🎯 **Expo 友好** | 专为 Expo 项目优化 | Expo |
-| 🔄 **Promise API** | 现代化的异步处理方式 | 全平台 |
-| 📱 **跨平台支持** | 同时支持 iOS 和 Android | iOS / Android |
+| 功能                 | 描述                                                    | 支持平台 |
+|--------------------|-------------------------------------------------------|----------|
+| 🔐 **微信登录授权**      | 支持 OAuth2 授权登录                                        | iOS / Android |
+| 📤 **内容分享**        | 支持文本、图片、音乐、视频、网页、小程序分享                                | iOS / Android |
+| 💰 **微信支付**        | 完整的支付流程集成                                             | iOS / Android |
+| 🚀 **小程序跳转**       | 支持跳转到微信小程序                                            | iOS / Android |
+| 📝 **TypeScript**  | 完整的类型定义支持                                             | 全平台 |
+| 🎯 **Expo 友好**     | 专为 Expo 项目优化                                          | Expo |
+| 🔄 **Promise API** | 现代化的异步处理方式                                            | 全平台 |
+| 📱 **跨平台支持**       | 同时支持 iOS 和 Android                                    | iOS / Android |
+| 📱 **SDK版本**       | **Android SDK**: 6.8.23 + ;      **iOS SDK**: 2.0.2 + | iOS / Android |
 
 ## 📦 安装
 
@@ -822,3 +820,5 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ---
 
 **Made with ❤️ by [Zeeklog](https://github.com/zeeklog)**
+
+**Thanks [zeng-zhiming](https://github.com/zeng-zhiming)**
