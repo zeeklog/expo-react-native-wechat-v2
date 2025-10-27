@@ -1,6 +1,6 @@
 // WeChat.mm
-#import "WeChat.h"
-#import "WXApiObject.h"
+#import <WechatOpenSDK/WeChat.h>
+#import <WechatOpenSDK/WXApiObject.h>
 #import <React/RCTEventDispatcher.h>
 #import <React/RCTBridge.h>
 #import <React/RCTLog.h>
