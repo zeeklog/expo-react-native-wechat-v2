@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'WechatOpenSDK'
+  s.dependency 'WechatOpenSDK-XCFramework'
   # ...
   # s.dependency "..."
 end
